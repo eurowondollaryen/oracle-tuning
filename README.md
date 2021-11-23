@@ -14,4 +14,4 @@
 7. 병렬 프로세싱(PARALLEL PROCESSING)
 8. 인라인 뷰
 9. 서브쿼리
-10. 스칼라 서브쿼리
+10. [스칼라 서브쿼리](https://github.com/eurowondollaryen/oracle-tuning/blob/master/10.scala%20subquery.md)
