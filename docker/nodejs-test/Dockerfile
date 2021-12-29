@@ -1,6 +1,9 @@
 # Node 10버전이 베이스 이미지
 FROM node:10
 
+#파일 정리정돈을 위하여 Working Directory를 설정한다.
+WORKDIR /usr/src/app
+
 # container 밖에 있는 파일 copy
 COPY ./ ./
 

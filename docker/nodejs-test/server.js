@@ -2,7 +2,7 @@ const express = require("express");
 
 //Constants
 const PORT = 8080;
-const HOST = "0.0.0.0";
+const HOST = "127.0.0.1";
 
 //App
 const app = express();
@@ -10,5 +10,5 @@ app.get("/", (req, res) => {
    res.send("Hello world"); 
 });
 
-app.listen(PORT, HOST);
+app.listen(PORT);
 console.log(`Running on http://${HOST}:${PORT}`);
