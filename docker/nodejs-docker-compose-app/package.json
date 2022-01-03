@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "express": "*",
-    "redis": "*"
-  }
+    "redis": "3.0.2"
+  },
   "author": "",
   "license": "ISC"
 }
